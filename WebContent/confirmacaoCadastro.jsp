@@ -8,7 +8,7 @@
 <title>Confirmação Cadastro Curriculum</title>
 </head>
 <body>
-	 <form action="/tecnicas/saudacaoCadastro.jsp">
+	 <form action="confirmar">
 		
 		<h1>Confirmação Cadastro Curriculum</h1>
 
@@ -75,7 +75,7 @@
 	    
 	    <input type="submit" value="Confirmar"/> 
 	    
-	   <a  href="http://localhost:8080/tecnicas/curriculum.jsp">Voltar</a>
+	   <a  href="http://localhost:8080/tecnicas_fa7/curriculum.jsp">Voltar</a>
 		 
 	 </form>
 </body>
