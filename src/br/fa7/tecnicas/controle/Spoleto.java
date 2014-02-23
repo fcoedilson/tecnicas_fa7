@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/spoleto")
+@WebServlet("/pages/spoleto")
 public class Spoleto extends HttpServlet{
 	
 	public void doGet(HttpServletRequest request, HttpServletResponse response)

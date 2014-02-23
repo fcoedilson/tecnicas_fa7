@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 import br.fa7.tecnicas.modelo.Suco;
 
 @SuppressWarnings("serial")
-@WebServlet("/suco")
+@WebServlet("/pages/suco")
 public class SucoServlet extends HttpServlet {
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response)

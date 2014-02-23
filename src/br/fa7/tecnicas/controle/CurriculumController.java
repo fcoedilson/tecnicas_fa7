@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import br.fa7.tecnicas.modelo.Curriculum;
 
-@WebServlet("/curriculum")
+@WebServlet("/pages/curriculum")
 public class CurriculumController extends HttpServlet{
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response)

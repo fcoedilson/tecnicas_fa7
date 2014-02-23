@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import br.fa7.tecnicas.modelo.Time;
 
-@WebServlet("/cadastrotime")
+@WebServlet("/pages/cadastrotime")
 public class TimeServlet  extends HttpServlet {
 	
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
