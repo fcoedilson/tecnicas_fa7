@@ -47,7 +47,7 @@ public class NotaServlet extends HttpServlet{
 
 		} catch (Exception e) {
 
-			req.setAttribute("erro_sistema", "PROBLEMA DE CONVERSÃO ...");	
+			req.setAttribute("erro_sistema", e);	
 		}
 		
 		
