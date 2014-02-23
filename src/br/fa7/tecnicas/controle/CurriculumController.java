@@ -47,7 +47,7 @@ public class CurriculumController extends HttpServlet{
 		c.setPropostaSalarial(request.getParameter("proposta_salarial"));
 		
 		request.setAttribute("curriculum", c);
-		RequestDispatcher dispatcher = request.getRequestDispatcher("confirmacaoCadastro.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("pages/confirmacaoCadastro.jsp");
 		dispatcher.forward(request, response);
 		
 	}

@@ -38,7 +38,7 @@ public class Spoleto extends HttpServlet{
 			//out.println("<h1> O ingrediente é :"  + ingredientes[0] +"</h1>");
 			//out.println("<h1> A critica é :"  + critica +"</h1>");
 			
-			RequestDispatcher rd = request.getRequestDispatcher("result.jsp");
+			RequestDispatcher rd = request.getRequestDispatcher("pages/result.jsp");
 			rd.forward(request, response);
 			
 		}

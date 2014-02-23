@@ -16,7 +16,7 @@ public class Confirmar extends HttpServlet{
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws IOException, ServletException {
 		
-		RequestDispatcher rd = request.getRequestDispatcher("saudacaoCadastro.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("pages/saudacaoCadastro.jsp");
 		rd.forward(request, response);
 	}
 }

@@ -27,7 +27,7 @@ public class TimeServlet  extends HttpServlet {
 		
 		request.setAttribute("time", time);
 
-		RequestDispatcher rd = request.getRequestDispatcher("time.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("pages/time.jsp");
 		rd.forward(request, response);
 		
 	}

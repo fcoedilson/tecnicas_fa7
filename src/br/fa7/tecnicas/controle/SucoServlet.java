@@ -22,7 +22,7 @@ public class SucoServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws IOException, ServletException {
 		
-		String[] sabores = {"tangerina", "melão", "sapoti", "graviola", "tamarino", "melancia"};
+		String[] sabores = {"tangerina", "melï¿½o", "sapoti", "graviola", "tamarino", "melancia"};
 		request.setAttribute("sabores", sabores);
 		
 		ArrayList carros =  new ArrayList(); //{"Palio", "KA", "UP", "L200"};//////////////////////////]
@@ -47,7 +47,7 @@ public class SucoServlet extends HttpServlet {
 
 		Suco suco = new Suco();
 		request.setAttribute("suco", suco);
-		RequestDispatcher rd = request.getRequestDispatcher("lanches.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("pages/lanches.jsp");
 		rd.forward(request, response);
 	}
 
