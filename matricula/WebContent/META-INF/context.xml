@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/tecnicas" docBase="tecnicas" reloadded="true" source="org.eclipse.jst.j2ee.server:tecnicas">
+
+  <Resource name="jdbc/tecnicas" 
+  			auth="Container" 
+            scope="Shareable"
+            type="javax.sql.DataSource"
+  			driverClassName="org.postgresql.Driver" 
+  			password="fa7"
+  			username="fa7" 
+  			url="jdbc:postgresql://localhost:5432/tecnicas" />
+</Context>

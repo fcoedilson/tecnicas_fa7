@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/tecnicas" docBase="" reloadded="true">
+
+  <Resource auth="Container" 
+            scope="Shareable"
+            type="javax.sql.DataSource"
+  			driverClassName="org.postgresql.Driver" 
+  			name="jdbc/sigafrota" 
+  			password="fa7" 
+  			url="jdbc:postgresql://localhost:5432/tecnicas" 
+  			username="fa7"/>
+</Context>
