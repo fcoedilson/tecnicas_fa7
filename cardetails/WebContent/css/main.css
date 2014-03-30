@@ -1,0 +1,32 @@
+body {
+	
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+
+.topbanner {
+	height: 40px;
+	background-image:
+		url("https://d2wvvaown1ul17.cloudfront.net/site-static/pages/home/account/debut_blue.png");
+	text-align: center;
+	padding-top: 9px;
+}
+
+.topbanner-text {
+	color: #fff;
+	font-size: 16px;
+}
+
+#page-content {
+	background-color: #fff;
+	height: 80%;
+	margin-top: 12px;
+	box-sizing: border-box;
+	box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 1px;
+	padding: 30px 30px 48px 30px;
+}
+
+
+

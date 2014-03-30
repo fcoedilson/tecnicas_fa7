@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/cardetails" docBase="cardetails" reloadded="true" source="org.eclipse.jst.j2ee.server:cardetails">
+
+  <Resource name="jdbc/cardetails" 
+  			auth="Container" 
+            scope="Shareable"
+            type="javax.sql.DataSource"
+  			driverClassName="org.postgresql.Driver" 
+  			password="sigafrota"
+  			username="sigafrota" 
+  			url="jdbc:postgresql://localhost:5432/cardetails" />
+</Context>
