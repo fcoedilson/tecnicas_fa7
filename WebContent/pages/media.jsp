@@ -30,7 +30,14 @@
 				<output>${notas[2]}</output><br/><br/><br/>
 				
 				<b><label>Média Final:</label></b>
-				<output>${media}</output><br/><br/>
+				
+				<output>${media}</output><br/>
+				<c:if test="${media >= 5}">
+				    (<label  style="color:blue">Aprovado!!</label>)
+				</c:if>
+				<c:if test="${media < 5}">
+				    (<label  style="color:red">Reprovado!!</label>)
+				</c:if>
 			
 			</c:if>
 		

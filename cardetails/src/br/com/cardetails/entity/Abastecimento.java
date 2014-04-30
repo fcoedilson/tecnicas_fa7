@@ -6,8 +6,8 @@ public class Abastecimento {
 	
 	private Integer veiculo;
 	private String placa;
-	private Integer kmatual;
-	private Integer kmant;
+	private Float kmatual;
+	private Float kmant;
 	private Float quantidade;
 	private Float valor;
 	private Float consumo;
@@ -27,12 +27,7 @@ public class Abastecimento {
 	public void setData(Date data) {
 		this.data = data;
 	}
-	public Integer getKmatual() {
-		return kmatual;
-	}
-	public void setKmatual(Integer kmatual) {
-		this.kmatual = kmatual;
-	}
+
 
 	public Float getQuantidade() {
 		return quantidade;
@@ -64,17 +59,24 @@ public class Abastecimento {
 	public void setPlaca(String placa) {
 		this.placa = placa;
 	}
-	public Integer getKmant() {
-		return kmant;
-	}
-	public void setKmant(Integer kmant) {
-		this.kmant = kmant;
-	}
+
 	public String getPosto() {
 		return posto;
 	}
 	public void setPosto(String posto) {
 		this.posto = posto;
+	}
+	public Float getKmatual() {
+		return kmatual;
+	}
+	public void setKmatual(Float kmatual) {
+		this.kmatual = kmatual;
+	}
+	public Float getKmant() {
+		return kmant;
+	}
+	public void setKmant(Float kmant) {
+		this.kmant = kmant;
 	}
 	
 }

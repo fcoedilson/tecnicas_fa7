@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/blog" docBase="blog" reloadded="true" source="org.eclipse.jst.j2ee.server:blog">
+
+  <Resource name="jdbc/blog" 
+  			auth="Container" 
+            scope="Shareable"
+            type="javax.sql.DataSource"
+  			driverClassName="org.postgresql.Driver" 
+  			password="postgres"
+  			username="postgres" 
+  			url="jdbc:postgresql://localhost:5432/budegadati" />
+</Context>

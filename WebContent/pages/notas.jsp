@@ -23,7 +23,6 @@
 			<label>VP2:</label>
 			<input type="text" name="vp2"/><br/>
 
-
 			<label>VF:</label>
 			<input type="text" name="vf"/><br/>
 			

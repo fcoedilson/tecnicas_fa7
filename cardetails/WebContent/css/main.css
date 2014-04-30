@@ -5,6 +5,12 @@ body {
 }
 
 
+.row-fluid:before, .row-fluid:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+
 .topbanner {
 	height: 40px;
 	background-image:
